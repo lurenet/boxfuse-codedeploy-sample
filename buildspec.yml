@@ -9,3 +9,4 @@ artifacts:
   files:
     - 'target/hello-1.0.war'
     - 'appspec.yml'
+    - 'scripts/*'
