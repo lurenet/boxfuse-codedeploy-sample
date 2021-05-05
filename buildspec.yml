@@ -1,0 +1,11 @@
+version: 0.1
+
+phases:
+  build:
+    commands:
+      - mvn package
+
+artifacts:
+  files:
+    - 'target/hello-1.0.war'
+    - 'appspec.yml'
