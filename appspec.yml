@@ -1,9 +1,7 @@
-version: 0.0
+version: 0.1
 os: linux
 files:
-  - source: /target/SampleMavenTomcatApp.war
-    destination: /tmp/codedeploy-deployment-staging-area/
-  - source: /scripts/configure_http_port.xsl
+  - source: /target/hello-1.0.war
     destination: /tmp/codedeploy-deployment-staging-area/
 hooks:
   ApplicationStop:
